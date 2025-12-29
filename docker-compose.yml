@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  party-app:
+    build: .
+    container_name: new_year_party_screen
+    ports:
+      - "8080:80"
+    restart: always
