@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>元旦晚会屏幕提示器</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Sans+SC:wght@400;700&display=swap');
+        
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #1a1a1a;
+            font-family: 'Noto+Sans+SC', sans-serif;
+        }
+
+        .aspect-4-3 {
+            aspect-ratio: 4 / 3;
+        }
+
+        .slide-content {
+            font-family: 'Noto Sans SC', sans-serif;
+        }
+
+        .festive-title {
+            font-family: 'Ma Shan Zheng', cursive;
+        }
+
+        /* Hide cursor when not moving in full screen */
+        .hide-cursor {
+            cursor: none;
+        }
+
+        /* Editable text focus style */
+        [contenteditable="true"]:focus {
+            outline: 2px solid rgba(255, 215, 0, 0.5);
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/"
+  }
+}
+</script>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>

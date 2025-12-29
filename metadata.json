@@ -1,0 +1,5 @@
+{
+  "name": "元旦晚会屏幕提示器",
+  "description": "一个专为元旦晚会设计的PPT式全屏提示应用，支持4:3比例显示、即时文字编辑和全屏切换。",
+  "requestFramePermissions": []
+}
