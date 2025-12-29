@@ -21,5 +21,12 @@ export const INITIAL_SLIDES: SlideData[] = [
   { id: 17, title: "互动环节：“立” BA", content: [""], type: 'game' },
   { id: 18, title: "班级大合唱", content: [""], type: 'program' },
   { id: 19, title: "工作人员名单", content: ["主持人：王蓦然\n活动策划：王蓦然\nPPT制作：周子栋\n..."], type: 'credits' },
-  { id: 20, title: "趣味问答", content: ["问题：\n答案："], type: 'qa' }
+  { 
+    id: 20, 
+    title: "新年快乐 · 万事如意", 
+    content: ["感谢每一位同学的参与", "2025 让我们共同奔赴星辰大海"], 
+    type: 'title',
+    audioUrl: "/song.mp3", // 假设文件名为 song.mp3，放置在 public 目录下
+    audioStartOffset: 20   // 从 20s 开始播放
+  }
 ];
